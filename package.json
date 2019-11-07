@@ -1,0 +1,31 @@
+{
+  "name": "expressBoilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node src/practice.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxultragunnerxx/expressBoilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxultragunnerxx/expressBoilerplate/issues"
+  },
+  "homepage": "https://github.com/xxultragunnerxx/expressBoilerplate#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "knex": "^0.19.5",
+    "mocha": "^6.2.2",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.1"
+  }
+}
